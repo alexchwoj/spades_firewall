@@ -7,9 +7,9 @@ Requisites
 
 ## Getting Started
 1. ```apt-get update && apt-get install gcc libpcap0.8* -y```
-2. ```git clone https://github.com/RealAtom/spadesfwall.git```
-3. ```cd spadesfwall```
+2. ```git clone https://github.com/RealAtom/spades_firewall.git```
+3. ```cd spades_firewall```
 4. ```make```
 
 ## Usage
-```./spadesfwall <iface>```
+```./spades <iface>```
