@@ -1,4 +1,4 @@
-# What is Spades Firewall?
+# Spades Firewall
 Spades Firewall is a simple firewall for AoS that protect your server against flood attacks AKA aloha.pk marketing.
 
 Requisites
