@@ -18,11 +18,11 @@
 #include <pthread.h>
 
 /* Config */
-#define	FIREWALL_VERSION 	"0.1" // Firewall version
-#define RATELIMIT_SECONDS	(1)   // Time for clear packets count (Default: 5 seconds)
-#define CLEAR_SECONDS	 	(60) // Time for clear the blocked list (Default: 1 minute)
-#define MAX_PACKETS		 	(100)  // MAX_PACKETS per RATELIMIT_SECONDS (Default: 50 packets per 1 seconds)
-#define	STRUCT_NUMBER	 	(700) // Max size for register list and blocked list (Default: 700)
+#define	FIREWALL_VERSION 	"0.1" 	// Firewall version
+#define RATELIMIT_SECONDS	(1)		// Time for clear packets count (Default: 5 seconds)
+#define CLEAR_SECONDS	 	(60) 	// Time for clear the blocked list (Default: 1 minute)
+#define MAX_PACKETS		 	(100)  	// MAX_PACKETS per RATELIMIT_SECONDS (Default: 50 packets per 1 seconds)
+#define	STRUCT_NUMBER	 	(700) 	// Max size for register list and blocked list (Default: 700)
 
 /* Defines */
 #define RED   "\x1B[31m"
